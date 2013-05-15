@@ -54,7 +54,7 @@ void COM::show_widget()
     Pal.setColor(QPalette::Normal, QPalette::Window, Qt::gray);
     w.setPalette(Pal);
 
-    //w.exec();
+    w.exec();
     if (qApp->property("my_close_dialog") == 0) {
 
     this->close();
